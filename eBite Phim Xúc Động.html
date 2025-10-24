@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>eBite: Phim Xúc Động</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #1b1b2f, #2f0d3c);
+        color: #fff;
+        overflow-x: hidden;
+    }
+    header {
+        text-align: center;
+        padding: 40px 20px;
+        background: rgba(255,255,255,0.05);
+        border-bottom: 2px solid #ff00ff;
+        box-shadow: 0 0 20px #ff00ff;
+    }
+    header h1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #ff99ff;
+    }
+    header p {
+        font-size: 1.2em;
+        color: #ffccff;
+    }
+    .movie-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .movie-card {
+        background: rgba(255,255,255,0.05);
+        border: 2px solid #ff00ff;
+        border-radius: 15px;
+        width: 250px;
+        padding: 20px;
+        box-shadow: 0 0 15px #ff00ff;
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+    }
+    .movie-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px #ff66ff;
+    }
+    .movie-card h2 {
+        margin-top: 0;
+        color: #ff99ff;
+        font-size: 1.3em;
+    }
+    .movie-card p {
+        font-size: 0.9em;
+        color: #ffccff;
+    }
+    footer {
+        text-align: center;
+        padding: 30px 20px;
+        color: #ff99ff;
+        font-size: 1em;
+        border-top: 2px solid #ff00ff;
+        box-shadow: 0 -5px 20px #ff00ff;
+    }
+    /* Animation neon glow */
+    @keyframes neon {
+        0%, 100% { text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff66ff; }
+        50% { text-shadow: 0 0 10px #ff66ff, 0 0 20px #ff99ff, 0 0 30px #ffccff; }
+    }
+    .neon-text {
+        animation: neon 1.5s infinite alternate;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1 class="neon-text">🎬 eBite: Những Bộ Phim Xúc Động</h1>
+    <p>Danh sách 15 bộ phim khiến Phạm Hoàng Hải & Trần Y Minh Tiên không thể kìm được nước mắt</p>
+</header>
+
+<div class="movie-list">
+    <div class="movie-card">
+        <h2>The Pursuit of Happyness</h2>
+        <p>Tình cha con, nghị lực phi thường, vượt qua nghèo khó để nuôi con.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Life is Beautiful</h2>
+        <p>Hy sinh của người cha trong chiến tranh, vừa buồn vừa ấm lòng.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Coco</h2>
+        <p>Gia đình, ký ức và lòng biết ơn tổ tiên, âm nhạc đầy xúc động.</p>
+    </div>
+    <div class="movie-card">
+        <h2>A Beautiful Mind</h2>
+        <p>Cuộc đời John Nash, tình yêu và nghị lực chiến thắng bệnh tâm thần.</p>
+    </div>
+    <div class="movie-card">
+        <h2>The Fault in Our Stars</h2>
+        <p>Tình yêu tuổi trẻ trong bối cảnh bệnh tật, vừa đẹp vừa day dứt.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Lion</h2>
+        <p>Cậu bé bị lạc tìm lại gia đình, đầy cảm xúc về niềm khao khát và hy vọng.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Schindler’s List</h2>
+        <p>Người cứu hàng trăm mạng sống trong chiến tranh, xúc động đến ám ảnh.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Marley & Me</h2>
+        <p>Tình yêu gia đình và chú chó Marley, khiến người xem rơi nước mắt.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Up</h2>
+        <p>Tình yêu, ký ức và những ước mơ dang dở, mở đầu đầy xúc động.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Hachi: A Dog’s Tale</h2>
+        <p>Chú chó trung thành Hachiko, cảm động về lòng trung thành và tình cảm sâu sắc.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Bridge to Terabithia</h2>
+        <p>Tình bạn tuổi thơ và mất mát, vừa nhẹ nhàng vừa day dứt.</p>
+    </div>
+    <div class="movie-card">
+        <h2>The Green Mile</h2>
+        <p>Phép màu, nhân phẩm và sự hy sinh, khiến khán giả xúc động mạnh.</p>
+    </div>
+    <div class="movie-card">
+        <h2>My Sister’s Keeper</h2>
+        <p>Bệnh tật, hy sinh và tình cảm chị em, dễ rơi nước mắt.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Wonder</h2>
+        <p>Cậu bé mặt dị tật vượt qua sự kỳ thị, đầy cảm hứng và xúc động.</p>
+    </div>
+    <div class="movie-card">
+        <h2>Eternal Sunshine of the Spotless Mind</h2>
+        <p>Tình yêu và ký ức, vừa đẹp vừa buồn, khiến người xem suy ngẫm.</p>
+    </div>
+</div>
+
+<footer>
+    ❤️ Dành tặng Phạm Hoàng Hải & Trần Y Minh Tiên
+</footer>
+
+</body>
+</html>
